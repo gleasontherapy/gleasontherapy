@@ -1,1 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Your Name], LMFT &mdash; Therapy Practice</title>
+  <meta name="description" content="[Your Name] is a licensed therapist offering [type of therapy] in [City, State].">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <span class="wordmark">[Your Name] Therapy</span>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO / TITLE + INTRO ============ -->
+    <section class="hero">
+      <div class="hero__texture" aria-hidden="true"></div>
+      <div class="wrap">
+        <h1 class="site-title">[Your Name], LMFT</h1>
+
+        <div class="intro-grid">
+          <div class="intro-photo">
+            <div class="intro-photo__placeholder">
+              <span>Add headshot<br>(e.g. headshot.jpg)</span>
+            </div>
+          </div>
+          <div class="intro-text">
+            <p>
+              I help [adults / couples / teens] work through [anxiety, life
+              transitions, relationship stress &mdash; edit to fit your focus]
+              in a space that's steady, direct, and genuinely kind. Therapy
+              here is collaborative &mdash; we move at a pace that respects
+              where you're starting from.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ME ============ -->
+    <section id="about" class="about">
+      <div class="wrap">
+        <h2>About Me</h2>
+
+        <h3>My Approach</h3>
+        <p>
+          [Describe your therapeutic approach here &mdash; modalities you use
+          (e.g. CBT, EMDR, psychodynamic), what a session with you tends to
+          feel like, and who you tend to work best with. Two to four
+          sentences is usually enough.]
+        </p>
+
+        <h3>Background &amp; Credentials</h3>
+        <p>
+          [Your degree, licensure (e.g. LMFT, LCSW, LPC), years of practice,
+          and any specialized training or certifications worth naming.]
+        </p>
+
+        <h3>Areas of Focus</h3>
+        <p>
+          [A short list or sentence naming the concerns you specialize in
+          &mdash; anxiety, grief, life transitions, couples work, etc.]
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="contact">
+      <div class="wrap">
+        <h2>Contact Me</h2>
+        <p class="contact__intro">
+          Reach out below, or contact me directly &mdash; I typically respond
+          within [1&ndash;2 business days].
+        </p>
+
+        <div class="contact-grid">
+
+          <!-- Formspree-ready form. Replace YOUR_FORM_ID once you've
+               created a form at https://formspree.io -->
+          <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send message</button>
+          </form>
+
+          <div class="contact-direct">
+            <h3>Direct</h3>
+            <p>
+              <a href="mailto:hello@gleasontherapy.com">hello@gleasontherapy.com</a><br>
+              <a href="tel:+10000000000">(000) 000-0000</a>
+            </p>
+            <p class="contact-note">
+              [Optional: office address, hours, or telehealth note.]
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="wrap site-footer__inner">
+      <div class="footer-brand">
+        <div class="footer-icon" aria-hidden="true">
+          <!-- Swap this placeholder mark for your own brand icon (SVG recommended) -->
+          <svg viewBox="0 0 40 40" width="28" height="28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+            <path d="M12 22c3-6 6-10 8-10s5 4 8 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+          </svg>
+        </div>
+        <span>[Your Name] Therapy</span>
+      </div>
+      <div class="footer-contact">
+        <a href="mailto:hello@gleasontherapy.com">hello@gleasontherapy.com</a>
+        <a href="tel:+10000000000">(000) 000-0000</a>
+      </div>
+    </div>
+    <div class="wrap">
+      <p class="footer-fine">&copy; <span id="year"></span> [Your Name] Therapy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
