@@ -176,7 +176,7 @@ textarea:focus-visible {
   width: 100%;
   aspect-ratio: 4 / 5;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 30px;
   border: 6px solid var(--color-bg-alt);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
