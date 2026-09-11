@@ -124,7 +124,7 @@ textarea:focus-visible {
    ========================================================= */
 .hero {
   position: relative;
-  padding-block: var(--space-5) var(--space-4);
+  padding-block: var(--space-5) var(--space-2);
   overflow: hidden;
 }
 
