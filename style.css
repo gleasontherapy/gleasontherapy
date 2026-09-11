@@ -199,7 +199,7 @@ textarea:focus-visible {
   padding-block: var(--space-3);
 }
 
-.about p { color: var(--color-text-muted); }
+.about p { color: var(--color-text); }
 
 /* =========================================================
    Contact
