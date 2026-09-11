@@ -124,7 +124,7 @@ textarea:focus-visible {
    ========================================================= */
 .hero {
   position: relative;
-  padding-block: var(--space-5) var(--space-2);
+  padding-block: var(--space-5) var(--space-4);
   overflow: hidden;
 }
 
@@ -196,7 +196,7 @@ textarea:focus-visible {
    About
    ========================================================= */
 .about {
-  padding-block: var(--space-5);
+  padding-block: var(--space-2);
 }
 
 .about p { color: var(--color-text-muted); }
