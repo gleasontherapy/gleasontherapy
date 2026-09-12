@@ -192,6 +192,13 @@ textarea:focus-visible {
   max-width: 52ch;
 }
 
+.intro-text h2 {
+  font-size: 2rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  max-width: 52ch;
+}
+
 /* =========================================================
    About
    ========================================================= */
