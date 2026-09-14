@@ -134,9 +134,9 @@ textarea:focus-visible {
   pointer-events: none;
   opacity: 0.06;
   background-image:
-    radial-gradient(circle at 15% 20%, transparent 0 60px, var(--color-forest) 61px, transparent 62px),
-    radial-gradient(circle at 85% 10%, transparent 0 90px, var(--color-forest) 91px, transparent 92px),
-    radial-gradient(circle at 60% 80%, transparent 0 120px, var(--color-forest) 121px, transparent 122px);
+    radial-gradient(circle at 4% 12%, transparent 0 60px, var(--color-forest) 61px, transparent 62px),
+    radial-gradient(circle at 96% 6%, transparent 0 90px, var(--color-forest) 91px, transparent 92px),
+    radial-gradient(circle at 6% 92%, transparent 0 120px, var(--color-forest) 121px, transparent 122px);
   background-size: 100% 100%;
 }
 
